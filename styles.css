@@ -1,0 +1,153 @@
+body {
+  background-color: #d0bcce;
+  margin: 0;
+  font-synthesis: none
+}
+
+:root {
+  --text_green: #11615e;
+}
+
+
+@font-face {
+  font-family: soleil;
+  src: url(./fonts/SoleilRegular.otf);
+}
+
+@font-face {
+  font-family: snowynight;
+  src: url(./fonts/SnowyNight.ttf);
+}
+
+.nav{
+	position: relative;
+	overflow: hidden;
+}
+
+.topnav a {
+  color: var(--text_green);
+  font-family: poppins, sans-serif;
+  padding: 2.5vw 5vw;
+  text-decoration: none;
+  font-size: 10vw;
+  display: block;
+  
+}
+
+.topnav #myLinks{
+	display: none;
+	text-align: right;
+}
+
+.topnav #myLinks a{
+	font-family: soleil, sans-serif;
+}
+
+.burger{ 
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+}
+	
+	
+.line {
+  background-color: var(--text_green);
+  width: 7vw;
+  height: 1vw;
+  margin: 1vw 0;
+}
+
+h2{
+  text-align: center;
+  font-family: soleil, sans-serif;
+  font-size: 18vw;
+  color: var(--text_green);
+  margin-bottom:0;
+  font-weight: 700;
+}
+
+.curve1{
+	background-color:#ef7fa4;
+	font-size: 0;
+
+	
+}
+
+.curve1 #topcurve{
+  margin-top:-50px;
+  display: inline-block;
+}
+
+.curve1 #secondcurve{
+  margin-top:-200px;
+  display: inline-block;
+  background-color: red;
+}
+
+
+#curve {
+  fill: transparent;
+
+}
+
+.hello {
+  font-family: soleil, sans-serif;
+  font-size: 8vw;
+  fill: var(--text_green);
+}
+
+.hellodiv{
+	padding-top:2vw;
+	background-color: #ef7fa4;
+	height: 100vw;
+	
+}
+
+
+.explore {
+	text-align: center;
+	background-color: #2cb7b5;
+	width: 80vw;
+	margin: auto;
+	border-radius: 5vw;
+	height: 10vw;
+	line-height: 10vw;
+	margin-top: 20vw;
+	
+}
+
+.explore a{
+	text-decoration: none;
+	color: white;
+}
+
+.explore:hover{
+	background-color:red;
+}
+
+h3{
+	font-family: snowynight;
+	font-size: 7vw;
+	font-weight: normal;
+}
+
+.slimBar{
+  background-color: #2cb7b5;
+  width: 55vw;
+  margin: auto;
+  border-radius: 1vw;
+  height: 2vw;
+  margin-top: 3vw;
+}
+	
+	
+p{
+  font-family: soleil, sans-serif;
+  text-align: center;
+  font-size: 7vw;
+  margin: 0 10vw 0 10vw;
+}
+		
