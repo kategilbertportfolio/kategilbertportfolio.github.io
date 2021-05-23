@@ -1,123 +1,81 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" href="styles.css">
-<title>Kate Portfolio</title>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-<link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="index.css">
+  <title>Kate Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
 </head>
+
 
 <body>
 
 <div class="topnav">
 
   <div class='nav'>
-  <a href="#home" class="active">KG</a>
-  
-  
-  <a href="javascript:void(0);" class='burger' onclick="myFunction()">
-  <div class="line"></div>
-  <div class="line"></div>
-  <div class="line"></div>
-  </a>
+    <a href="./index.html" class="active">KG</a>
+    <a href="javascript:void(0);" class='burger' onclick="burger()">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </a>
   </div>
   
   <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
+  <div id="links">
     <a href="#work">Work</a>
     <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-	
-
+    <a href="./contact.html">Contact</a>
   </div>
 
-
 </div>
-
 <script src="script.js"></script>
 
-<div class="test">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1147.86 599.85" >
-<g id="Layer_2" data-name="Layer 2">
-<g id="Layer_1-2" data-name="Layer 1">
-<text transform="translate(71.92 324.3) rotate(-6.21)" style="font-size:356px;fill:#16615e;font-family:Poppins-SemiBold, Poppins;font-weight:600">
-H
-</text>
-<text transform="matrix(1, 0.05, -0.05, 1, 315.2, 299.54)" style="font-size:356px;fill:#16615e;font-family:Poppins-SemiBold, Poppins;font-weight:600">
-e
-</text>
-<text transform="translate(528.52 314.27) rotate(8)" style="font-size:356px;fill:#16615e;font-family:Poppins-SemiBold, Poppins;font-weight:600">
-l
-</text>
-<text transform="translate(623.7 327.7) rotate(10.4)" style="font-size:356px;fill:#16615e;font-family:Poppins-SemiBold, Poppins;font-weight:600">
-l
-</text><text transform="matrix(0.99, 0.14, -0.14, 0.99, 725.24, 354.05)" style="font-size:356px;fill:#16615e;font-family:Poppins-SemiBold, Poppins;font-weight:600">
-o
-</text>
-<text transform="translate(983.5 390.74) rotate(-2.9)" style="font-size:356px;fill:#16615e;font-family:Poppins-SemiBold, Poppins;font-weight:600">
-!
-</text>
-</g>
-</g>
-</svg>
+
+<div class="hello">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1147.86 599.85" >
+    <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+    <text transform="translate(71.92 324.3) rotate(-6.21)" style="font-size:356px;fill:#16615e;font-family:Poppins-SemiBold, Poppins;font-weight:600">
+    H</text>
+    <text transform="matrix(1, 0.05, -0.05, 1, 315.2, 299.54)" style="font-size:356px;fill:#16615e;font-family:Poppins-SemiBold, Poppins;font-weight:600">
+    e</text>
+    <text transform="translate(528.52 314.27) rotate(8)" style="font-size:356px;fill:#16615e;font-family:Poppins-SemiBold, Poppins;font-weight:600">
+    l</text>
+    <text transform="translate(623.7 327.7) rotate(10.4)" style="font-size:356px;fill:#16615e;font-family:Poppins-SemiBold, Poppins;font-weight:600">
+    l</text>
+	<text transform="matrix(0.99, 0.14, -0.14, 0.99, 725.24, 354.05)" style="font-size:356px;fill:#16615e;font-family:Poppins-SemiBold, Poppins;font-weight:600">
+    o</text>
+    <text transform="translate(983.5 390.74) rotate(-2.9)" style="font-size:356px;fill:#16615e;font-family:Poppins-SemiBold, Poppins;font-weight:600">
+    !</text>
+    </g>
+    </g>
+  </svg>
 </div>
-
-<!--<h2>Hello!</h2>-->
-
-<!--
-<div class="curve1">
-<svg id="topcurve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d0bcce" fill-opacity="1" d="M0,288L60,261.3C120,235,240,181,360,170.7C480,160,600,192,720,202.7C840,213,960,203,1080,181.3C1200,160,1320,128,1380,112L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
-</div>
--->
-
-
-<!--
-<div class="hellodiv">
-
-
-<svg viewBox="0 0 425 170">
-  <path id="curve" d="M6,150C49.63,93,105.79,36.65,156.2,47.55,207.89,58.74,213,131.91,264,150c40.67,14.43,108.57-6.91,229-145" />
-  <text class="hello" x="25">
-    <textPath xlink:href="#curve">
-      Hello! People
-    </textPath>
-  </text>
-</svg>
--->
 
 
 <div class="intro">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1954.98 673.13" style="display: block;"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon points="0 673.13 1953.79 673.13 1953.79 126.02 1649.73 399.57 1417.11 448.83 1004.1 429.84 656.5 399.57 282.52 453.58 49.23 581.75 0 619.73 0 673.13" style="fill:#e4e7d7"/><path d="M1955,155.68C1854.57,357,1733.27,456.23,1623.56,507c-309.92,143.35-573.84-79.19-1035.78-33.23C328.81,499.51,126.44,597.84,0,673.13V515.07c126.44-75.29,328.81-173.62,587.78-199.38,461.94-46,725.86,176.58,1035.78,33.23,109.28-50.55,230-149.25,330.23-348.92Q1954.38,77.84,1955,155.68Z" style="fill:#ef80a4"/></g></g></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1954.98 673.13" style="display: block;"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><polygon points="0 673.13 1953.79 673.13 1953.79 126.02 1649.73 399.57 1417.11 448.83 1004.1 429.84 656.5 399.57 282.52 453.58 49.23 581.75 0 619.73 0 673.13" style="fill:#e4e7d7"/><path d="M1955,155.68C1854.57,357,1733.27,456.23,1623.56,507c-309.92,143.35-573.84-79.19-1035.78-33.23C328.81,499.51,126.44,597.84,0,673.13V515.07c126.44-75.29,328.81-173.62,587.78-199.38,461.94-46,725.86,176.58,1035.78,33.23,109.28-50.55,230-149.25,330.23-348.92Q1954.38,77.84,1955,155.68Z" style="fill:#ef80a4"/></g></g></svg>
+  
+  <div class="introtext">
+    <p>My name is Kate. I am a Graphic Communication and Illustration Student. Feel free to have a look around my portfolio website!</p>
+  </div>
+  
+  <div class="bars">
+    <div class="button">
+      <a href="#explore">
+        <h3>Explore...!</h3>
+      </a>
+    </div>
+    <div class="slimBar"></div>
+  </div>
 
-<div class="introtext">
-<p>My name is Kate. I am a Graphic Communication and Illustration Student. Feel free to have a look around my portfolio website!</p>
-</div>
-
-<div class="bars">
-<div class="explore">
-<a href="#explore">
-<h3>Explore...!</h3>
-</a>
-</div>
-
-<div class="slimBar">
-</div>
-</div>
-
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1947.47 1091.76"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M0,927.83c355,142.77,582.81,106.4,721.58,52.45C970,883.68,1038,689.89,1348.22,434.83c231.63-190.43,455.7-297.77,599.17-356.47q-.06-39.18-.13-78.36H.06Z" style="fill:#e4e7d7"/><path d="M1947.47,121.28C1839.11,164,1682.24,237.7,1519.41,364,1203.67,608.79,1162.58,821.1,956.07,965.27,795.74,1077.21,517,1161.14.06,1009.58V832C438.68,970.21,695,904,848.47,816.53,1087.82,680.08,1132,460.64,1459.28,231c186.31-130.7,366.84-196.29,488-231Z" style="fill:#eec97c"/></g></g></svg>
-</div>
-
-
-
-
-
-
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1947.47 1091.76"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M0,927.83c355,142.77,582.81,106.4,721.58,52.45C970,883.68,1038,689.89,1348.22,434.83c231.63-190.43,455.7-297.77,599.17-356.47q-.06-39.18-.13-78.36H.06Z" style="fill:#e4e7d7"/><path d="M1947.47,121.28C1839.11,164,1682.24,237.7,1519.41,364,1203.67,608.79,1162.58,821.1,956.07,965.27,795.74,1077.21,517,1161.14.06,1009.58V832C438.68,970.21,695,904,848.47,816.53,1087.82,680.08,1132,460.64,1459.28,231c186.31-130.7,366.84-196.29,488-231Z" style="fill:#eec97c"/></g></g></svg>
 </div>
 
 
 </body>
 </html>
-
-

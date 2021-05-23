@@ -1,0 +1,63 @@
+h1{
+  font-family: poppins;
+  color: var(--text_green);
+  font-size: 15vw;
+  margin-left: 13vw;
+  margin-top:5vw;
+  line-height: 14vw;
+}
+
+
+.form{
+	background-color: #eeca7c;
+	height: 83vw;
+	margin: 0 10vw 10vw 10vw;
+	text-align: center;
+	padding-top: 1vw;
+	font-size:3vw;
+	font-family: soleil, sans-serif;
+	border-radius: 5vw;
+}
+
+
+input[type=text], select {
+  width: 93%;
+  border: none;
+  border-radius: 0vw;
+  font-size: 6vw;
+  margin: 1vw;
+  height: 8vw;
+  border-radius:2vw;
+  background-color:#fbf4e5;
+  padding: 1vw;
+}
+
+
+textarea{
+  width: 93%;
+  border: none;
+  border-radius: 0vw;
+  font-size: 6vw;
+  margin: 1vw;
+  height: 38vw;
+  border-radius:2vw;
+  background-color:#fbf4e5;
+  font-family: soleil, sans-serif;
+  padding: 1vw;
+}
+
+textarea:focus{
+  background-color: lightblue;
+  outline: none;
+}
+
+.button{
+  width: 95%;
+  color: white;
+  margin-top:2vw;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+  outline: none;
+}
