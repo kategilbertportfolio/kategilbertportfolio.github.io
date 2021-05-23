@@ -1,16 +1,12 @@
 body {
   height: 100%;
-  background: linear-gradient(0deg, #d5ecee 50%, #d0bcce 50%);
-  background-repeat:no-repeat;
-  background-color: #d5ecee ;
   margin: 0;
-  font-synthesis: none
+  font-synthesis: none;
 }
 
 :root {
   --text_green: #11615e;
 }
-
 
 @font-face {
   font-family: soleil;
@@ -22,9 +18,19 @@ body {
   src: url(./fonts/SnowyNight.ttf);
 }
 
+h3{
+  font-family: snowynight;
+  font-size: 7vw;
+  font-weight: normal;
+  margin-top:0;
+}
+
+
+
+
 .nav{
-	position: relative;
-	overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .topnav a {
@@ -34,16 +40,15 @@ body {
   text-decoration: none;
   font-size: 10vw;
   display: block;
-  
 }
 
-.topnav #myLinks{
-	display: none;
-	text-align: right;
+.topnav #links{
+  display: none;
+  text-align: right;
 }
 
-.topnav #myLinks a{
-	font-family: soleil, sans-serif;
+.topnav #links a{
+  font-family: soleil, sans-serif;
 }
 
 .burger{ 
@@ -54,8 +59,7 @@ body {
   transform: translateY(-50%);
   right: 0;
 }
-	
-	
+
 .line {
   background-color: var(--text_green);
   width: 7vw;
@@ -63,121 +67,23 @@ body {
   margin: 1vw 0;
 }
 
-h2{
+
+.button{
   text-align: center;
-  font-family: soleil, sans-serif;
-  font-size: 18vw;
-  color: var(--text_green);
-  margin-bottom:0;
-  font-weight: 700;
-}
-
-.curve1{
-	background-color:#ef7fa4;
-	font-size: 0;
-
-	
-}
-
-.curve1 #topcurve{
-  margin-top:-50px;
-  display: inline-block;
-}
-
-.curve1 #secondcurve{
-  margin-top:-200px;
-  display: inline-block;
-  background-color: red;
-}
-
-
-#curve {
-  fill: transparent;
-
-}
-
-.hello {
-  font-family: soleil, sans-serif;
-  font-size: 8vw;
-  fill: var(--text_green);
-}
-
-.hellodiv{
-	padding-top:2vw;
-	background-color: #ef7fa4;
-	height: 100vw;
-	
-}
-
-
-.explore {
-	text-align: center;
-	background-color: #2cb7b5;
-	width: 80vw;
-	margin: auto;
-	border-radius: 5vw;
-	height: 10vw;
-	line-height: 10vw;
-	
-}
-
-.explore a{
-	text-decoration: none;
-	color: white;
-}
-
-.explore:hover{
-	background-color:red;
-}
-
-h3{
-	font-family: snowynight;
-	font-size: 7vw;
-	font-weight: normal;
-	margin-top:0;
-}
-
-.slimBar{
   background-color: #2cb7b5;
-  width: 55vw;
+  width: 80vw;
   margin: auto;
-  border-radius: 1vw;
-  height: 2vw;
-  margin-top: 3vw;
-}
-	
-	
-p{
-  font-family: soleil, sans-serif;
-  text-align: center;
-  font-size: 7vw;
-  margin: 0 10vw 0 10vw;
-}
-	
-.introtext{
-background-color: #e4e7d6;
-display: inline-block;
-margin-top: -1px;
-margin-bottom:-1px;
-padding-top:5vw;
-padding-bottom:4vw;
-
-}	
-
-.intro{
-	margin-top: -27vw;
+  border-radius: 5vw;
+  height: 10vw;
+  line-height: 10vw;
+  border:none;
 }
 
-.bars{
-position: relative;
-
-margin-top:-15vw;
-top: 35vw;
-
+.button a{
+  text-decoration: none;
+  color: white;
 }
 
-.test{
-	width:60%;
-	margin: 0 auto;
-	margin-top: 8vw;
+.button:hover{
+  background-color:red;
 }
