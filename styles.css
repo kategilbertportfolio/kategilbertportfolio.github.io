@@ -18,14 +18,19 @@ body {
   src: url(./fonts/SnowyNight.ttf);
 }
 
+p{
+  font-family: soleil, sans-serif;
+  text-align: center;
+  font-size: 7vw;
+  margin: 0 10vw 0 10vw;
+}
+
 h3{
-  font-family: snowynight;
+  font-family: soleil, sans-serif;
   font-size: 7vw;
   font-weight: normal;
   margin-top:0;
 }
-
-
 
 
 .nav{
@@ -85,5 +90,5 @@ h3{
 }
 
 .button:hover{
-  background-color:red;
+  background-color:#85CCD0;
 }
