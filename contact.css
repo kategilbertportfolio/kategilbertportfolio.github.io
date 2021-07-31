@@ -1,3 +1,9 @@
+body {
+  background: linear-gradient(0deg, #eeca7c 50%, #d0bcce 50%);
+  background-repeat:no-repeat;
+  background-color: #eeca7c ;
+}
+
 h1{
   font-family: poppins;
   color: var(--text_green);
@@ -17,6 +23,8 @@ h1{
 	font-size:3vw;
 	font-family: soleil, sans-serif;
 	border-radius: 5vw;
+	margin-top:70vw;
+	position:relative;
 }
 
 
@@ -27,12 +35,15 @@ input[type=text], [type=email], select {
   font-size: 6vw;
   margin: 1vw;
   height: 8vw;
-  border-radius:2vw;
+  border-radius:3vw;
   background-color:#fbf4e5;
   padding: 1vw;
 }
 
-
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #588393;
+  opacity: 1; /* Firefox */
+}
 
 
 textarea{
@@ -49,7 +60,7 @@ textarea{
 }
 
 textarea:focus{
-  background-color: lightblue;
+  background-color: #85CCD0;
   outline: none;
 }
 
@@ -60,6 +71,14 @@ textarea:focus{
 }
 
 input[type=text]:focus, [type=email]:focus {
-  background-color: lightblue;
+  background-color: #85CCD0;;
   outline: none;
+}
+
+.bg_curves{
+	margin-top:20vw;
+}
+
+.contact_title{
+	margin-top:-120vw;
 }
