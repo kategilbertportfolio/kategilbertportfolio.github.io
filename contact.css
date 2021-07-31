@@ -20,7 +20,7 @@ h1{
 }
 
 
-input[type=text], select {
+input[type=text], [type=email], select {
   width: 93%;
   border: none;
   border-radius: 0vw;
@@ -31,6 +31,8 @@ input[type=text], select {
   background-color:#fbf4e5;
   padding: 1vw;
 }
+
+
 
 
 textarea{
@@ -57,7 +59,7 @@ textarea:focus{
   margin-top:2vw;
 }
 
-input[type=text]:focus {
+input[type=text]:focus, [type=email]:focus {
   background-color: lightblue;
   outline: none;
 }
